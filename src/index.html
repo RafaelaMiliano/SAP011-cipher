@@ -1,14 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correio do amor Cipher</title>
     <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+
+  <body>
+    
+    <header>
+      <h1> Correio Secreto do Amor</h1>
+      <h3>Escreva sua mensagem de amor de maneira secreta! Apenas você e seu amor saberão o conteúdo!</h3>
+    </header>
+    
+    <main>
+<section>
+  <article>
+    <div class="codificar">
+
+        <label for="Mensagem">Escreva aqui sua mensagem de amor para ser codificada:</label>
+
+        <input type="text" id="mensagem" placeholder="Mensagem">
+
+        <button onclick="Codificar()">Codificar</button> 
+    </div>
+  </article>
+
+  <article>
+    <div class="decodificar">
+
+      <label for="Mensagem">Escreva aqui sua mensagem de amor para ser decodificada:</label>
+
+      <input type="text" id="nome" placeholder="Mensagem">
+
+      <button onclick="Decodificar()">Decodificar</button> 
+
+  </article>
+</section>
+
+
+    </main>
+    
+<footer>Projeto Cipher - Laboratória - by Rafaela Guedes</footer>
+
+
+
+
+
+
   </body>
 </html>
