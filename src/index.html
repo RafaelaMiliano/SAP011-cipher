@@ -20,30 +20,21 @@
     <main>
 <section>
   <article>
-    <div class="codificar">
+    <div>
 
-        <label for="Mensagem">Escreva aqui sua mensagem de amor para ser CODIFICADA</label>
+    <label  for="mensagem">Escreva aqui sua mensagem de amor:</label>
+      <input type="text" id="mensagem" placeholder="Mensagem">
+    
+      <button onclick="criptografar()">Codificar mensagem</button>
+      <button onclick="descriptografar()">Decodificar mensagem</button>
+    
+      <label for="resultado">Resultado:</label>
+      <textarea id="resultado" rows="4" readonly></textarea> 
+      <!--  exibindo quatro linhas, onde o texto será apenas para leitura (não editável) e onde o resultado será exibido -->
 
-        <input type="text" id="mensagem" placeholder="Mensagem">
-
-        <button onclick="Codificar()">Codificar mensagem</button> 
-
-        <input type="text" id="resposta codificada" placeholder="Resposta">
     </div>
   </article>
 
-  <article>
-    <div class="decodificar">
-
-      <label for="Mensagem">Escreva aqui sua mensagem de amor para ser DECODIFICADA:</label>
-
-      <input type="text" id="nome" placeholder="Mensagem">
-
-      <button onclick="Decodificar()">Decodificar mensagem</button> 
-
-      <input type="text" id="resposta decodificada" placeholder="Resposta">
-
-  </article>
 </section>
 
 
