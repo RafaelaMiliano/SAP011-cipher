@@ -1,0 +1,88 @@
+body {
+background-image: url(imagem.png);
+background-size: cover;
+background-attachment: fixed;
+text-align: center;
+background-position: right;
+}
+
+header h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 10px 5px #361e1e;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 80px auto 0 auto;
+
+}
+
+header h3{
+
+    color: rgb(7, 5, 5);
+    background-color: #cc6767;
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 70px;
+    border: 6px solid white;
+   font-family:cursive
+}
+
+header{
+    text-align: center;
+}
+
+section{
+background-color: #cc6767 rgba(0, 0, 0, 0.5);
+display: inline-block;
+
+}
+
+article{
+
+display: inline-block;
+border: 2px solid white;
+display: flex;
+margin: 30px;
+height: 500px;
+width: 800px;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    
+    font-family: cursive;
+    border-radius: 5px;
+}
+
+input{
+    height: 80px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: cursive
+
+
+}
+
+button{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+
+}
