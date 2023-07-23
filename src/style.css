@@ -1,9 +1,8 @@
 body {
-background-image: url(imagem.png);
+background-image: url(imag8.png);
 background-size: cover;
 background-attachment: fixed;
 text-align: center;
-background-position: right;
 }
 
 header h1{
@@ -44,7 +43,7 @@ display: inline-block;
 article{
 
 display: inline-block;
-border: 2px solid white;
+border: 2px solid white; /* APAGAR NO FINAL */
 display: flex;
 margin: 30px;
 height: 500px;
