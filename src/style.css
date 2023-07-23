@@ -43,11 +43,11 @@ section{
 article{
 
     display: inline-block;
-    border: 2px solid white; /* APAGAR NO FINAL */
+    
     display: flex;
     margin-top: 100px;
-    height: 700px;
-    width: 800px;
+    height: 1000px;
+    width: 1000px;
     flex-direction: column;
 
 
@@ -62,47 +62,70 @@ label{
     margin-top: 15px;
     font-family: cursive;
     border-radius: 10px;
+
     
 }
 
 label[for="resultado"] {
-    margin-top: 50px;
+    margin-top: 120px;
     padding: 20px;
     
 }
 
-input{
-    height: 80px;
-    width: 500px;
+#mensagem {
+    height: 300px;
+    width: 700px;
     background-color: rgba(0, 0, 0, 0.7);
     margin-top: 20px;
     padding: 40px;
     border-radius: 5px;
-    color: aliceblue;
-    font-size: 15px;
-    font-family: cursive
-
-
-}
-
-button{
-    display: flex;
-    margin: auto;
-    margin-top: 10px;
-    padding: 8px;
-    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    box-sizing: border-box;
+    resize: none;
+    text-align: left;
+    white-space: pre-wrap;
+    overflow: hidden;
 
 }
 
 
 #resultado {
-    width: 600px;
-    height: 150px;
+    width: 700px;
+    height: 200px;
     resize: none;
-    padding: 5px;
-    background-color: black;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-family: cursive;
     border-radius: 10px;
+  }
+
+button{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-family: cursive;
+    background-color: #cc6767;
+    color: white;
+
+}
+
+button:hover{
+    background-color: white;
+    color: #cc6767;
+    cursor: pointer;
+}
+
+
+
+
+  footer{
+    color: #cc6767;
+    margin-top: 100px;
   }
