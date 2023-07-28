@@ -268,7 +268,7 @@ Reflita e depois enumere os objetivos que quer alcançar e aplique no seu projet
 
   <details><summary>Links</summary><p>
 
-  * [Introdução a eventos - MDN](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Building_blocks/Events)
+  * [Introdução a eventos - MDN](./thumb.png)
   * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener)
   * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/removeEventListener)
   * [Objeto Event](https://developer.mozilla.org/pt-BR/docs/Web/API/Event)

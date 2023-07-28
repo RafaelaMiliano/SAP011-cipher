@@ -25,8 +25,11 @@
     <label  for="mensagem">Escreva (ou traduza) aqui sua mensagem de amor:</label>
     <textarea id="mensagem" placeholder="Mensagem"></textarea>
     
-      <button onclick="criptografar()">Codificar mensagem</button>
-      <button onclick="descriptografar()">Decodificar mensagem</button>
+    <label for="offset">Número de Deslocamento:</label>
+    <input type="number" id="offset" min="1" value="3">
+
+      <button type="submit" id="botao-criptografar" onclick="criptografar()">Codificar mensagem</button>
+      <button type="submit" id="botao-descriptografar" onclick="descriptografar()">Traduzir mensagem</button>
     
       <label for="resultado">Resultado:</label>
       <textarea id="resultado" readonly></textarea> 
