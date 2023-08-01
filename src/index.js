@@ -1,4 +1,4 @@
-import { encode, decode } from './cipher.js';
+import cipher from './cipher.js';
 
 // Função para atualizar o campo de resultado com a mensagem criptografada
 function atualizarResultado(resultado) {
@@ -15,7 +15,7 @@ function converterParaMaiusculas() {
 function criptografar() {
   const mensagem = document.getElementById('mensagem').value;
   const offset = parseInt(document.getElementById('offset').value);
-  const mensagemCriptografada = encode(offset, mensagem);
+  const mensagemCriptografada = cipher.encode(offset, mensagem);
   atualizarResultado(mensagemCriptografada);
 }
 
@@ -23,7 +23,7 @@ function criptografar() {
 function descriptografar() {
   const mensagemCriptografada = document.getElementById('resultado').value;
   const offset = parseInt(document.getElementById('offset').value);
-  const mensagemDescriptografada = decode(offset, mensagemCriptografada);
+  const mensagemDescriptografada = cipher.decode(offset, mensagemCriptografada);
 
   // Atualiza o campo de resultado com a mensagem descriptografada
   atualizarResultado(mensagemDescriptografada);
