@@ -22,17 +22,19 @@
   <article>
     <div>
 
-    <label  for="mensagem">Escreva (ou traduza) aqui sua mensagem de amor:</label>
+    <label  for="mensagem">Escreva aqui sua mensagem para Codificar:</label>
     <textarea id="mensagem" placeholder="Mensagem"></textarea>
     
     <label for="offset">Número de Deslocamento:</label>
     <input type="number" id="offset" min="1" value="3">
      <br>
       <button type="submit" id="botao-criptografar" onclick="criptografar()">Codificar mensagem</button>
-      <button type="submit" id="botao-descriptografar" onclick="descriptografar()">Traduzir mensagem</button>
+      
     
-      <label for="resultado">Resultado:</label>
-      <textarea id="resultado" readonly></textarea> 
+      <label for="resultado">Mensagem Codificada:</label>
+      <textarea id="resultado"></textarea> 
+      <br>
+      <button type="submit" id="botao-descriptografar" onclick="descriptografar()">Traduzir mensagem</button>
       
     </div>
   </article>
