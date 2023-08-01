@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correio do amor Cipher</title>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+
+  <body>
+    
+    <header>
+      <h1>♥ Correio do amor ♥</h1>
+
+      <h3>Escreva sua mensagem de amor de maneira <i>SECRETA</i>!</h3>
+    </header>
+    
+    <main>
+<section>
+  <article>
+    <div>
+
+    <label  for="mensagem">Escreva (ou traduza) aqui sua mensagem de amor:</label>
+    <textarea id="mensagem" placeholder="Mensagem"></textarea>
+    
+    <label for="offset">Número de Deslocamento:</label>
+    <input type="number" id="offset" min="1" value="3">
+     <br>
+      <button type="submit" id="botao-criptografar" onclick="criptografar()">Codificar mensagem</button>
+      <button type="submit" id="botao-descriptografar" onclick="descriptografar()">Traduzir mensagem</button>
+    
+      <label for="resultado">Resultado:</label>
+      <textarea id="resultado" readonly></textarea> 
+      
+    </div>
+  </article>
+
+</section>
+
+
+    </main>
+    
+<footer>Projeto Cipher - Laboratória - by Rafaela Guedes</footer>
+
+
+
+
+
+  </body>
+</html>
