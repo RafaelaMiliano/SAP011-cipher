@@ -1,17 +1,17 @@
-# Correio do amor / Cifra de César ![Alt text](imag8.png)
+# Correio do amor / Cifra de César 
 
 ## Índice
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Considerações gerais](#3-considerações-gerais)
-* [4. Marco: Critérios de Aceitação Mínimos do Projeto](#5-marco-critérios-de-aceitação-mínimos-do-projeto)
-* [5. Marco Opcional: Adicione suporte para letras minúsculas e outros caracteres](#5-marco-opcional-adicione-suporte-para-letras-minúsculas-e-outros-caracteres)
-* [6. Considerações técnicas](#6-considerações-técnicas)
-* [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
-* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
+* [3. Protótipo](#3-protótipo)
+* [4. Usabilidade](#4-usabilidade)
+* [5. Experiência](#5-experiência)
+* [6. Tecnologias utilizadas](#6-tecnologias-utilizadas)
+* [7. Interface](#7-interface)
+* [8. Teste](#8-teste)
 * [9. Para considerar o feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
-
+* [10.Desenvolvedora](#10-desenvolvedora)
 ***
 
 ## 1. Prefácio
@@ -39,7 +39,8 @@ Por exemplo se usarmos o deslocamento (_offset_) de 3 posições:
 
 ## 2. Resumo do projeto
 
-Neste projeto o usuário irá encontrar um Correio do Amor secreto onde poderá cifrar e decifrar um texto no navegador indicando um deslocamento
+Este é meu primeiro projeto como desenvolvedora web fornt-end parte do bootcamp do Laboratória.
+Neste projeto o usuário irá encontrar um Correio do Amor secreto, onde poderá cifrar e decifrar um texto no navegador indicando um deslocamento
 específico de caracteres (_offset_) para escrever mensagens secretas de amor.
 
 
@@ -50,7 +51,7 @@ específico de caracteres (_offset_) para escrever mensagens secretas de amor.
 ## 4. Usabilidade
 
 
-**1. O Usuário será capaz de:**
+**O Usuário será capaz de:**
 
 * **Criptografar uma mensagem**
   - Inserir a mensagem (texto) que deseja criptografar. A mensagem usa um
@@ -77,20 +78,26 @@ Com uma usabilidade simples, o usuário será capaz de escrever sua mensagem e a
 
 ## 6. Tecnologias utilizadas
 
-### HTML 5
-
-
-
-### CSS 3
-
-
-
-
-### Javascript
-
+![Alt text](html5-logo-31816.png)
 
 
 
 ## 7. Interface
 
 ![Alt text](projeto.png)
+
+
+## 8. Teste
+Projeto com 100% de aprovação no npm test.
+![Alt text](testimag.png)
+
+## 9. Link
+
+Clique [aqui](https://rafaelamiliano.github.io/SAP011-cipher/) para visitar a página.
+
+## 10. Desenvolvedora
+
+Github clique [aqui](https://github.com/RafaelaMiliano).
+
+Linkedin clique [aqui](https://www.linkedin.com/in/rafaela-miliano-4b4581223/).
+
