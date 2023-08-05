@@ -26,12 +26,17 @@ function descriptografar() {
   const mensagemDescriptografada = cipher.decode(offset, mensagemCriptografada);
 
   // Atualiza o campo de resultado com a mensagem descriptografada
-  atualizarResultado(mensagemDescriptografada);
+  document.getElementById('resultado').value = mensagemDescriptografada.toUpperCase();
 }
 
 
-// Adiciona o ouvinte de evento para converter para maiúsculas
+// Adiciona o ouvinte de evento para converter para maiúsculas na mensagem
 document.getElementById('mensagem').addEventListener('input', converterParaMaiusculas);
+
+// Adiciona o ouvinte de evento para converter para maiúsculas no resultado
+document.getElementById('resultado').addEventListener('input', function() {
+  this.value = this.value.toUpperCase();
+});
 
 // Adiciona os ouvintes de evento aos botões
 document.getElementById('botao-criptografar').addEventListener('click', criptografar);

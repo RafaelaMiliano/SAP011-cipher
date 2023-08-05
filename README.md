@@ -89,7 +89,7 @@ Com uma usabilidade simples, o usuário será capaz de escrever sua mensagem e a
 
 ## 8. Teste
 Projeto com 100% de aprovação no npm test.
-![Alt text](testimag.png)
+![Alt text](test.png)
 
 ## 9. Link
 
