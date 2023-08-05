@@ -1,8 +1,8 @@
 import cipher from './cipher.js';
 
-// Função para atualizar o campo de resultado com a mensagem criptografada
-function atualizarResultado(resultado) {
-  document.getElementById('resultado').value = resultado;
+// Função para atualizar o campo de mensagem com a mensagem criptografada
+function atualizarResultado(mensagem) {
+  document.getElementById('mensagem').value = mensagem;
 }
 
 // Função para converter o texto para maiúsculas
@@ -28,6 +28,7 @@ function descriptografar() {
   // Atualiza o campo de resultado com a mensagem descriptografada
   atualizarResultado(mensagemDescriptografada);
 }
+
 
 // Adiciona o ouvinte de evento para converter para maiúsculas
 document.getElementById('mensagem').addEventListener('input', converterParaMaiusculas);
